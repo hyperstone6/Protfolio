@@ -1,0 +1,100 @@
+.sidebar-top {
+  background-color: rgba(35, 35, 46, .93);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 20rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  z-index: 5;
+  position: absolute;
+}
+
+.sidebar-top__text {
+  text-align: center;
+}
+
+.sidebar-top__img-container {
+  position: relative;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.sidebar-top__img-container img {
+  border-radius: 50%;
+  height: 9rem;
+  margin-bottom: 1rem;
+}
+
+.blinker {
+  position: absolute;
+  right: 2em;
+  bottom: 3em;
+  
+}
+
+.blinker:hover {
+  cursor: pointer;
+}
+
+.blinker::before {
+  content: "";
+  background-color: white;
+  height: 1.2em;
+  width: 1.2em;
+  position: absolute;
+  animation: blink 1s infinite;
+  border-radius: 50%;
+  }
+
+.blinker::after {
+content: "";
+background-color: var(--orange-primary);
+height: 1.2em;
+width: 1.2em;
+position: absolute;
+border-radius: 50%;
+}
+
+@keyframes blink {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.tooltip-sidebar-top {
+  opacity: 0;
+  transition: all .4s;
+}
+
+.tooltip-sidebar-top::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 6.5em;
+  right: -12em;
+  width: 12em;
+  padding-top: .6em;
+  padding-bottom: .6em;
+  padding-left: 1.6em;
+  background-color: rgba(0,0,0, .8);
+  clip-path: polygon(6% 36%, 6% 20%, 100% 20%, 100% 80%, 6% 82%, 6% 65%, 0 51%);
+  transform: translate(2em);
+  transition: all .8s;
+}
+
+.blinker:hover + .tooltip-sidebar-top::after {
+  transform: translateX(0);
+}
+
+.blinker:hover + .tooltip-sidebar-top {
+  opacity: 1;
+}

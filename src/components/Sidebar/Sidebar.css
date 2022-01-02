@@ -1,0 +1,39 @@
+.sidebar {
+  width: 45em;
+  /* min-height: inherit; */
+  position: relative;
+  transition: all 0.5s ease-in;
+  box-shadow: var(--box-shadow);
+  transform: translateX(0%);
+}
+
+@media only screen and (max-width: 900px) {
+  .sidebar {
+    transform: translateX(-100%);
+    display: none;
+  }
+}
+
+.sidebar-hide {
+  width: 1rem;
+  height: 2rem;
+  border-radius: 2px;
+  background-color: rgba(15, 15, 20);
+  position: absolute;
+  right: -1rem;
+  transition: all 0.4s;
+}
+
+.sidebar-hide:hover {
+  background-color: var(--orange-primary);
+  transform: scale(1.1) translateY(2px);
+}
+
+.toggle-sidebar {
+  opacity: 0;
+  height: 2rem;
+  width: 1rem;
+  z-index: 100;
+
+  cursor: pointer;
+}

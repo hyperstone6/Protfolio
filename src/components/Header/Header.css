@@ -1,0 +1,31 @@
+.header {
+  padding: 6em;
+  min-height: 25em;
+  width: 100%;
+  background-image: 
+  linear-gradient(
+    90deg,
+    rgba(45, 45, 58, 0.9) 15%,
+    rgba(45, 45, 58, 0.7) 50%,
+    rgba(43, 43, 53, 0.7) 100%
+  ), 
+  url(../../images/pillars\ of\ creation.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.header__slogan {
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+.header__cta-button {
+  background-color: var(--orange-primary);
+  color: rgb(32, 32, 42);
+  font-weight: 400;
+  border: none;
+  padding: 1em 2.5em;
+  cursor: pointer;
+  margin: 2em 0;
+}
