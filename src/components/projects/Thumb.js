@@ -42,7 +42,7 @@ const Thumb = () => {
       <div className="thumbnail">
         <Project04 />
         <a
-          href=""
+          href="/"
           rel="noopener noreferrer"
           className="goto-button"
         >Coming Soon!
@@ -51,7 +51,7 @@ const Thumb = () => {
       <div className="thumbnail">
         <Project05 />
         <a
-          href=""
+          href="/"
           
           rel="noopener noreferrer"
           className="goto-button"
@@ -61,7 +61,7 @@ const Thumb = () => {
       <div className="thumbnail">
         <Project06 />
         <a
-          href=""
+          href="/"
           
           rel="noopener noreferrer"
           className="goto-button"
