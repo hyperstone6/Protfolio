@@ -1,5 +1,6 @@
 import Project01 from "./project01/Project01";
 import Project02 from "./project02/Project02";
+import Project03 from "./project03/Project03";
 import "./Thumb.css";
 
 const Thumb = () => {
@@ -19,6 +20,16 @@ const Thumb = () => {
         <Project02 />
         <a
           href="https://calculator-phi-blush.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="goto-button"
+        >Visit the Project
+        </a>
+      </div>
+      <div className="thumbnail">
+        <Project03 />
+        <a
+          href="https://todo-app-cml02ix62-hyperstone6.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="goto-button"
