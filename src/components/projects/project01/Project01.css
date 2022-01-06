@@ -1,0 +1,13 @@
+.no-modal {
+    height: 100%;
+}
+
+.project-img {
+    height: 100%;
+    width: 100%;
+}
+
+.modal {
+    width: 60vw;
+    height: 50vh;
+}

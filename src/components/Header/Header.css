@@ -22,7 +22,7 @@
 
 .header__cta-button {
   background-color: var(--orange-primary);
-  color: rgb(32, 32, 42);
+  color: var(--grey-primary);
   font-weight: 400;
   border: none;
   padding: 1em 2.5em;

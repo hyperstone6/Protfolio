@@ -1,5 +1,6 @@
 :root {
     --orange-primary: orange;
+    --grey-primary: rgb(32, 32, 42);
     --thumb-color-primary: rgb(44, 44, 56);
     --box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   }

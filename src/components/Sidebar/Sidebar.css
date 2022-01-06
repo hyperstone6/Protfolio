@@ -1,6 +1,6 @@
 .sidebar {
-  width: 45em;
-  /* min-height: inherit; */
+  width: 25em;
+  min-height: inherit;
   position: relative;
   transition: all 0.5s ease-in;
   box-shadow: var(--box-shadow);

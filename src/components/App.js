@@ -11,11 +11,6 @@ function App() {
         <Header />
         <div className='thumbs'>
           <Thumb />
-          <Thumb />
-          <Thumb />
-          <Thumb />
-          <Thumb />
-          <Thumb />
         </div>
       </div>
       

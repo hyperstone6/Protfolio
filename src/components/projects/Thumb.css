@@ -1,3 +1,57 @@
+.thumbnail-container {
+    display: flex;
+    margin: 2em;
+    gap: 2em;
+}
+
+.thumbnail {
+    background-color: var(--thumb-color-primary);
+    width: 30em;
+    height: 20em;
+    margin-top: 2em;
+    box-shadow: var(--box-shadow);
+    transition: transform .4s;
+    overflow: hidden;
+    position: relative;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    position: inherit;
+    z-index: 1;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: none;
+    transform: scale(1);
+}
+
+.goto-button {
+    position: absolute;
+    z-index: 100;
+    padding: 1em 2em;
+    background-color: var(--orange-primary);
+    color: var(--grey-primary);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 300%);
+    border: 1px solid var(--grey-primary);
+    transition: all .4s;
+}
+
+.thumbnail:hover > .goto-button {
+    transform: translate(-50%, -50%);
+}
+
+/* .thumb-container {
+
+    display: flex;
+}
+
 .thumbnail {
     background-color: var(--thumb-color-primary);
     width: 30em;
@@ -16,4 +70,24 @@
 iframe {
     width: 100%;
     height: 100%;
+    background-color: white;
+    border: none;
+
 }
+
+.thumbnail-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    max-width: 95em;
+    height: 50em;
+    max-height: 60vh;
+    transition: transform .4s;
+}
+
+.thumbnail-modal:hover {
+    cursor: pointer;
+}
+*/
