@@ -1,5 +1,5 @@
 .sidebar-top {
-  background-color: rgba(35, 35, 46, .93);
+  background-color: var(--thumb-color-secondary);
   display: flex;
   flex-direction: column;
   width: 100%;

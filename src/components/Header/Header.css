@@ -23,9 +23,19 @@
 .header__cta-button {
   background-color: var(--orange-primary);
   color: var(--grey-primary);
+  box-shadow: var(--box-shadow);
   font-weight: 400;
   border: none;
   padding: 1em 2.5em;
   cursor: pointer;
   margin: 2em 0;
+  transition: all .3s;
+}
+
+.header__cta-button:hover {
+  transform: translateY(-2px);
+}
+
+.header__cta-button:active {
+  transform: translateY(1px) scale(.99);
 }

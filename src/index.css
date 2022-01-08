@@ -2,6 +2,8 @@
     --orange-primary: orange;
     --grey-primary: rgb(32, 32, 42);
     --thumb-color-primary: rgb(44, 44, 56);
+    --thumb-color-secondary: rgba(35, 35, 46, .93);
+    --font-color-white: white;
     --box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   }
 
