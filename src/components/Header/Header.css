@@ -24,12 +24,13 @@
   background-color: var(--orange-primary);
   color: var(--grey-primary);
   box-shadow: var(--box-shadow);
-  font-weight: 400;
+  font-weight: var(--font-weight-bold);
   border: none;
   padding: 1em 2.5em;
   cursor: pointer;
   margin: 2em 0;
   transition: all .3s;
+  border-radius: var(--border-radius);
 }
 
 .header__cta-button:hover {
@@ -38,4 +39,15 @@
 
 .header__cta-button:active {
   transform: translateY(1px) scale(.99);
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    padding: 2em;
+  }
+
+  .header__slogan {
+      font-size: 2.5rem;
+      /* min-height: 20em; */
+  }
 }

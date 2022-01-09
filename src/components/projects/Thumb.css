@@ -53,9 +53,10 @@ iframe {
   padding: 0.7em 1.5em;
   background-color: var(--orange-primary);
   color: var(--grey-primary);
+  font-weight: var(--font-weight-bold);
   border: 1px solid var(--grey-primary);
   transition: all 800ms;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
 }
 
 .project {

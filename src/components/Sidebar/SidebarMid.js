@@ -53,7 +53,7 @@ const SidebarMid = (props) => {
           offsetValues.value2 -= 1;
           setProgress2();
         }
-      }, 10)
+      }, 50)
       setPercentText2(100 - offsetValues.value2);
       if(percentText2 === 70) {
         clearInterval(valueChange2)
@@ -66,7 +66,7 @@ const SidebarMid = (props) => {
           offsetValues.value3 -= 1;
           setProgress3();
         }
-      }, 10)
+      }, 100)
       setPercentText3(100 - offsetValues.value3);
       if(percentText3 === 90) {
         clearInterval(valueChange3)
@@ -146,7 +146,7 @@ const SidebarMid = (props) => {
           <ul>
             <li>
               <h6>HTML:</h6>
-              <span>100%</span>
+
             </li>
           </ul>
           <svg viewBox="0 0 100 1.72" preserveAspectRatio="none">
@@ -161,7 +161,6 @@ const SidebarMid = (props) => {
           <ul>
             <li>
               <h6>CSS:</h6>
-              <span>98%</span>
             </li>
           </ul>
           <svg viewBox="0 0 100 1.72" preserveAspectRatio="none">
@@ -176,7 +175,6 @@ const SidebarMid = (props) => {
           <ul>
             <li>
               <h6>JavaScript:</h6>
-              <span>90%</span>
             </li>
           </ul>
           <svg viewBox="0 0 100 1.72" preserveAspectRatio="none">
@@ -191,7 +189,6 @@ const SidebarMid = (props) => {
           <ul>
             <li>
               <h6>React:</h6>
-              <span>85%</span>
             </li>
           </ul>
           <svg viewBox="0 0 100 1.72" preserveAspectRatio="none">
@@ -206,7 +203,6 @@ const SidebarMid = (props) => {
           <ul>
             <li>
               <h6>Redux:</h6>
-              <span>85%</span>
             </li>
           </ul>
           <svg viewBox="0 0 100 1.72" preserveAspectRatio="none">

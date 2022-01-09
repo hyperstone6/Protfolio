@@ -3,8 +3,11 @@
     --grey-primary: rgb(32, 32, 42);
     --thumb-color-primary: rgb(44, 44, 56);
     --thumb-color-secondary: rgba(35, 35, 46, .93);
+    --body-color: rgb(25, 25, 35);
     --font-color-white: white;
     --box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+    --border-radius: .5em;
+    --font-weight-bold: 700;
   }
 
 *, 
@@ -13,7 +16,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--font-color-white);
     text-decoration: none;
     list-style: none;
 }
@@ -24,6 +27,6 @@ html {
 }
 
 body {
-    background-color: rgb(25, 25, 35);
+    background-color: var(--body-color);
 }
 

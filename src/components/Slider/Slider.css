@@ -5,13 +5,140 @@
     background-color: var(--thumb-color-secondary);
     z-index: 100;
     transition: all 1s ease-in-out;
-    visibility: visible;
-    opacity: 1;
+    position: relative;
+    display: flex;
+    gap: 4em;
 }
 
-.slide {
+.slide-off {
     height: 0;
     padding: 0;
     visibility: hidden;
     opacity: 0;
+}
+
+.card {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 35vh;
+    width: 15vw;
+    animation: fadeInText 1s;
+    z-index: 100;
+}
+
+.card-side {
+    font-size: 2rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: .3em;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    height: 100%;
+    width: 100%;
+}
+
+.card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-side--back {
+    transform: rotateY(-180deg); 
+    position: relative;
+    background-color: var(--body-color);
+}
+
+.card:hover .card-side--front {
+    transform: rotateY(180deg); 
+}
+  .card:hover .card-side--back {
+    transform: rotateY(0); 
+}
+
+.card-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--orange-primary);
+    border: none;
+    width: 11em;
+    text-align: center;
+    padding: .7em .8em;
+    border-radius: var(--border-radius);
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--grey-primary);
+}
+
+.card-button:hover {
+    cursor: pointer;
+}
+
+.mission {
+    flex: 0 0 70%;
+    line-height: 1.7;
+    animation: fadeInText 2s;
+}
+
+.mission h2{
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
+
+.mission p {
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+@keyframes fadeInText {
+    0% {
+        transform: translateX(-100vw);
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .slider {
+        padding: 4em;
+    }
+
+    .mission h2 {
+        font-size: 2.2rem;
+    }
+
+    .mission p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        display: none;
+    }
+
+    .mission {
+        flex: 0 0 100%;
+    }
+
+    .slider {
+        padding-top: 2em;
+    }
+
+    .mission h2 {
+        margin-bottom: 0;
+    }
 }
