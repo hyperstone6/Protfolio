@@ -182,10 +182,6 @@
     line-height: 2.5;
 }
 
-/* .extra-skills-container {
-    padding-bottom: 2.5em;
-} */
-
 .extra-skills::before {
     content: "";
     border: solid var(--orange-primary);
@@ -194,4 +190,22 @@
     padding: 3px;
     transform: rotate(45deg);
     margin-right: 1em;
+}
+
+.sidebar-icon {
+    font-size: 1.3rem;
+}
+
+.contacts {
+    display: inline-block;
+    margin-left: .5em;
+    line-height: 2.5em;
+}
+
+.linebreak-bottom::after {
+    content: "";
+    border-bottom: 1px solid transparent;
+    display: block;
+    width: 100%;
+    margin: 6em 0;
 }

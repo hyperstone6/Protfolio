@@ -1,7 +1,13 @@
 import { useRef, useEffect, useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhoneSquare } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 import "./SidebarMid.css";
 
 const SidebarMid = (props) => {
+  const phoneIcon = <FontAwesomeIcon className="sidebar-icon" icon={faPhoneSquare} />
+  const emailIcon = <FontAwesomeIcon className="sidebar-icon" icon={faEnvelopeOpenText} />
+
   const refs = {
     circleRef1: useRef(),
     circleRef2: useRef(),
@@ -222,12 +228,10 @@ const SidebarMid = (props) => {
         </div>
         <span className="linebreak"></span>
         <div className="extra-skills-container">
-          <p className="extra-skills">Bootstrap, Bulma, Tailwind</p>
-          <p className="extra-skills">Semantic UI, Sass, Stylus</p>
-          <p className="extra-skills">NPM, Command line, Git</p>
-          <p className="extra-skills">Work with (RESTful) APIs</p>
+        <div>{phoneIcon} <p className="contacts">+1 438 364 5017</p></div>
+        <div>{emailIcon}<p className="contacts"><a href="mailto:palebluedot85@gmail.com">palebluedot85@gmail.com</a></p> </div>
         </div>
-        <span className="linebreak"></span>
+        <span className="linebreak-bottom"></span>
       </div>
     </div>
   );

@@ -62,19 +62,29 @@
 }
 
 .card-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: var(--orange-primary);
     border: none;
-    width: 11em;
+    width: 11.5em;
     text-align: center;
     padding: .7em .8em;
     border-radius: var(--border-radius);
     font-size: 1.2rem;
     font-weight: var(--font-weight-bold);
     color: var(--grey-primary);
+}
+
+.card-button-cv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.card-button-github {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
 }
 
 .card-button:hover {
