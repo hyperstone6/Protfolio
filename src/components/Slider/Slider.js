@@ -12,7 +12,7 @@ function Slider(props) {
         <div className="card-side card-side--back">
           <a
             className="card-button card-button-cv"
-            href="https://drive.google.com/file/d/1Q0KSYSUBLqEYdEBKNR3XlZFvqA6B2WeK/view?usp=sharing"
+            href="https://drive.google.com/file/d/140osrDe5V_tjIbR3uiuC0J9-_3zdQN7g/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -31,13 +31,13 @@ function Slider(props) {
       <div className="mission">
         <h2>About Me</h2>
         <p>
-          From the moment I wrote my first code, I knew I was destined to become
-          a developer. Software development isn't "merely a job" for me, but a
-          passion and a full-fledged, life-long engaging challenge to
-          continually learn and grow, while striving to improve my skills and
-          write great software. The more software I write, the more I fall in
-          love with the development field. Please click on the button above to
-          explore some of my work and hover over my image to download my CV.
+          From the moment I wrote my first "Hello World" I fell in love with
+          development. Software development isn't just a job for me, but a
+          passion and a life-long challenge to continually learn and grow while
+          striving to improve my skills and holding myself to high standards to
+          write great software. Fully capable of working in both self-starting
+          and collaborative environments, with a focus on high-quality results
+          and maximum contribution to my team.
         </p>
       </div>
     </div>

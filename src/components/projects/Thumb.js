@@ -50,16 +50,16 @@ const Thumb = (props) => {
       </div>
       <div className="thumbnail">
         <Project03 />
-        <span className="product-title">Todo App</span>
+        <span className="product-title">Refund Tracker</span>
         <a
-          href="https://todo-app-cml02ix62-hyperstone6.vercel.app/"
+          href="https://refund-tracker.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classProject}`}
         >Project
         </a>
         <a
-          href="https://github.com/hyperstone6/Simple-Todo"
+          href="https://github.com/hyperstone6/Refund-Tracker"
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classGitHub}`}

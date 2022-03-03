@@ -11,7 +11,7 @@ const Project06 = (props) => {
         <img
           className="project-img"
           src={tictactoe}
-          alt="project calculator"
+          alt="Project Refund Tracker"
           onClick={() => setModal(false)}
         />
       </div>
@@ -20,8 +20,8 @@ const Project06 = (props) => {
     return (
       <div className="modal">
         <iframe
-          title="todo app"
-          src="https://todo-app-cml02ix62-hyperstone6.vercel.app/"
+          title="Refunc Tracker"
+          src="https://refund-tracker.vercel.app/"
         ></iframe>
       </div>
     );
