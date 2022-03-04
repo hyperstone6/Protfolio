@@ -11,7 +11,7 @@ const Project02 = (props) => {
         <img
           className="project-img"
           src={calc}
-          alt="project refund tracker"
+          alt="project calculator"
           onClick={() => setModal(false)}
         />
       </div>
@@ -20,8 +20,8 @@ const Project02 = (props) => {
     return (
       <div className="modal">
         <iframe
-          title="Refund Tracker"
-          src="https://refund-tracker.vercel.app/"
+          title="calculator"
+          src="https://calculator-phi-blush.vercel.app/"
         ></iframe>
       </div>
     );

@@ -12,7 +12,7 @@ function Slider(props) {
         <div className="card-side card-side--back">
           <a
             className="card-button card-button-cv"
-            href="https://drive.google.com/file/d/140osrDe5V_tjIbR3uiuC0J9-_3zdQN7g/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Eu-HhB4aXrBWn3AUpV_Nd28u7jEd5Sio/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
