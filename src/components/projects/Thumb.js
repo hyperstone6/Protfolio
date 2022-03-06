@@ -78,13 +78,20 @@ const Thumb = (props) => {
       </div>
       <div className="thumbnail">
         <Project05 />
-        <span className="product-title">Live Chat App</span>
+        <span className="product-title">Live Chat App (ChitChat)</span>
         <a
-          href="/"
-          
+          href="https://sayed-chitchat.herokuapp.com/"
+          target="_blank"
           rel="noopener noreferrer"
-          className="goto-button project"
-        >Coming Soon!
+          className={`goto-button ${classProject}`}
+        >Project
+        </a>
+        <a
+          href="https://github.com/hyperstone6/chitchat"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`goto-button ${classGitHub}`}
+        >GitHub
         </a>
       </div>
       <div className="thumbnail">
