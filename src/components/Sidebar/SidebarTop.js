@@ -10,7 +10,7 @@ const SidebarTop = () => {
         <span className="tooltip-sidebar-top" data-tooltip={"I'm available for hire"}></span>
       </div>
       <div className="sidebar-top__text">
-        <h3>Sayed Mahmood</h3>
+        <h3>Adrian Steele</h3>
         <p>Front-end Developer</p>
       </div>
     </div>
