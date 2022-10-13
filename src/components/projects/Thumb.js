@@ -7,11 +7,11 @@ import Project06 from "./project06/Project06";
 import "./Thumb.css";
 
 const Thumb = (props) => {
-  const classProject = 'project'
-  const classGitHub = 'github'
+  const classProject = "project";
+  const classGitHub = "github";
 
   return (
-  <div className='thumbnail-container'>
+    <div className="thumbnail-container">
       <div className="thumbnail special">
         <Project01 />
         <span className="product-title">Furniture Store</span>
@@ -20,14 +20,16 @@ const Thumb = (props) => {
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classProject}`}
-        >Project
+        >
+          Project
         </a>
         <a
           href="https://github.com/hyperstone6/Aeki"
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classGitHub}`}
-        >GitHub
+        >
+          GitHub
         </a>
       </div>
       <div className="thumbnail">
@@ -38,14 +40,16 @@ const Thumb = (props) => {
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classProject}`}
-        >Project
+        >
+          Project
         </a>
         <a
           href="https://github.com/hyperstone6/Calculator"
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classGitHub}`}
-        >GitHub
+        >
+          GitHub
         </a>
       </div>
       <div className="thumbnail">
@@ -56,24 +60,36 @@ const Thumb = (props) => {
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classProject}`}
-        >Project
+        >
+          Project
         </a>
         <a
           href="https://github.com/hyperstone6/Refund-Tracker"
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classGitHub}`}
-        >GitHub
+        >
+          GitHub
         </a>
       </div>
       <div className="thumbnail">
         <Project04 />
-        <span className="product-title">Music Player</span>
+        <span className="product-title">Digital Agency</span>
         <a
-          href="/"
+          href="https://digital-agency-henna.vercel.app/"
+          target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classProject}`}
-        >Coming Soon!
+        >
+          Project
+        </a>
+        <a
+          href="https://github.com/hyperstone6/Digital-Agency"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`goto-button ${classGitHub}`}
+        >
+          GitHub
         </a>
       </div>
       <div className="thumbnail">
@@ -84,25 +100,23 @@ const Thumb = (props) => {
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classProject}`}
-        >Project
+        >
+          Project
         </a>
         <a
           href="https://github.com/hyperstone6/chitchat"
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classGitHub}`}
-        >GitHub
+        >
+          GitHub
         </a>
       </div>
       <div className="thumbnail">
         <Project06 />
         <span className="product-title">TicTacToe Game</span>
-        <a
-          href="/"
-          
-          rel="noopener noreferrer"
-          className="goto-button project"
-        >Coming Soon!
+        <a href="/" rel="noopener noreferrer" className="goto-button project">
+          Coming Soon!
         </a>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import music from "../../../images/music.jpg";
+import agency from "../../../images/agency.png";
 import "./Project04.css";
 
 const Project04 = (props) => {
@@ -10,8 +10,8 @@ const Project04 = (props) => {
       <div className="no-modal">
         <img
           className="project-img"
-          src={music}
-          alt="project calculator"
+          src={agency}
+          alt="project agency"
           onClick={() => setModal(false)}
         />
       </div>
@@ -21,7 +21,7 @@ const Project04 = (props) => {
       <div className="modal">
         <iframe
           title="todo app"
-          src="https://todo-app-cml02ix62-hyperstone6.vercel.app/"
+          src="https://digital-agency-henna.vercel.app/"
         ></iframe>
       </div>
     );

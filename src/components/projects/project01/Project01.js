@@ -21,7 +21,7 @@ const Project01 = (props) => {
       <div className="modal">
         <iframe
           title="furniture store"
-          src="https://sayed-aeki.netlify.app/"
+          src="https://adrian-aeki.vercel.app/"
         ></iframe>
       </div>
     );
