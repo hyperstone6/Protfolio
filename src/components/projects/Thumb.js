@@ -16,7 +16,7 @@ const Thumb = (props) => {
         <Project01 />
         <span className="product-title">Furniture Store</span>
         <a
-          href="https://sayed-aeki.netlify.app/"
+          href="https://adrian-aeki.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className={`goto-button ${classProject}`}
